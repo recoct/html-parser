@@ -1,0 +1,29 @@
+{
+  "name": "html-walker",
+  "version": "0.0.1",
+  "description": "a simple HTML parser",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node --experimental-modules examples/parse.js",
+    "debug": "node --inspect-brk --experimental-modules examples/parse.js"
+  },
+  "keywords": [
+    "parser",
+    "iterator"
+  ],
+  "author": "recoct@outlook.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
